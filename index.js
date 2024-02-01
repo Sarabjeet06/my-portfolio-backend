@@ -13,6 +13,10 @@ var corsOptions= {
     optionsSuccessStatus: 200,
 }
 
+app.get('/', (res)=>{
+    res.render("Backend running");
+});
+
 app.use(cors(corsOptions));
 
 app.use("/submit-form", formRoutes);
