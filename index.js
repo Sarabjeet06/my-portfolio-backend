@@ -13,8 +13,8 @@ var corsOptions= {
     optionsSuccessStatus: 200,
 }
 
-app.get('/', (res)=>{
-    res.render("Backend running");
+app.get('/', (req,res)=>{
+    return res.status(200).json({'ok': 'running fine'});
 });
 
 app.use(cors(corsOptions));
