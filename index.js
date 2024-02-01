@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.json());
 
 var corsOptions= {
-    origin: ['http://localhost:3000'],
+    origin: ['http://localhost:3000', 'https://sarabjeetsingh.netlify.app/'],
     optionsSuccessStatus: 200,
 }
 

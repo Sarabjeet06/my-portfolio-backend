@@ -25,7 +25,7 @@ export function SendEmailTemplate(name, email, subject, message) {
         <body>
             <div class="response-container">
                 <div class="logo-image">
-                    <img src="./templatePic" alt="Response logo">
+                    <img src="./templateEmailPic" alt="Response logo">
                 </div>
                 <div class="resonse-content">
                     <h1>Contact form Submission</h1>
